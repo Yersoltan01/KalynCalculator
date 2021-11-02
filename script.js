@@ -1,7 +1,7 @@
 document.getElementById("submit").addEventListener("click", function(){
     let person = calculate();
     if (person != null) {
-        document.getElementById("answer").innerHTML = `The price for your bride ${person.name} is ${person.price}.  Love letter: "${person.letter}"`;
+        document.getElementById("answer").innerHTML = `The price for your bride ${person.name} is ${person.price} $.  Love letter: "${person.letter}"`;
     } else {
         document.getElementById("answer").innerHTML = "Please, enter the data.";
     }
